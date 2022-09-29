@@ -1,0 +1,50 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/vova/Projects/Lerning_OpenGL'
+/usr/bin/cmake -S/home/vova/Projects/Lerning_OpenGL -B/home/vova/Projects/Lerning_OpenGL --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/vova/Projects/Lerning_OpenGL/CMakeFiles /home/vova/Projects/Lerning_OpenGL//CMakeFiles/progress.marks
+make -s -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/vova/Projects/Lerning_OpenGL'
+make -s -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/depend
+make[2]: Entering directory '/home/vova/Projects/Lerning_OpenGL'
+cd /home/vova/Projects/Lerning_OpenGL && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/vova/Projects/Lerning_OpenGL /home/vova/Projects/Lerning_OpenGL/Core /home/vova/Projects/Lerning_OpenGL /home/vova/Projects/Lerning_OpenGL/Core /home/vova/Projects/Lerning_OpenGL/Core/CMakeFiles/Core.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/vova/Projects/Lerning_OpenGL'
+make -s -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
+ 
+make[2]: Entering directory '/home/vova/Projects/Lerning_OpenGL'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=1 "Building CXX object Core/CMakeFiles/Core.dir/Application.cpp.o"
+cd /home/vova/Projects/Lerning_OpenGL/Core && /usr/bin/c++ -DCore_EXPORTS  -Wall -Wextra -fPIC -std=gnu++14 -MD -MT Core/CMakeFiles/Core.dir/Application.cpp.o -MF CMakeFiles/Core.dir/Application.cpp.o.d -o CMakeFiles/Core.dir/Application.cpp.o -c /home/vova/Projects/Lerning_OpenGL/Core/Application.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=2 "Linking CXX shared library libCore.so"
+cd /home/vova/Projects/Lerning_OpenGL/Core && /usr/bin/cmake -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=
+make[2]: Leaving directory '/home/vova/Projects/Lerning_OpenGL'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=1,2 "Built target Core"
+make -s -f Lessons/CMakeFiles/Lessons.dir/build.make Lessons/CMakeFiles/Lessons.dir/depend
+make[2]: Entering directory '/home/vova/Projects/Lerning_OpenGL'
+cd /home/vova/Projects/Lerning_OpenGL && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/vova/Projects/Lerning_OpenGL /home/vova/Projects/Lerning_OpenGL/Lessons /home/vova/Projects/Lerning_OpenGL /home/vova/Projects/Lerning_OpenGL/Lessons /home/vova/Projects/Lerning_OpenGL/Lessons/CMakeFiles/Lessons.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/vova/Projects/Lerning_OpenGL'
+make -s -f Lessons/CMakeFiles/Lessons.dir/build.make Lessons/CMakeFiles/Lessons.dir/build
+ 
+make[2]: Entering directory '/home/vova/Projects/Lerning_OpenGL'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=5 "Building CXX object Lessons/CMakeFiles/Lessons.dir/Hello_Triangle/Hello_Triangle.cpp.o"
+cd /home/vova/Projects/Lerning_OpenGL/Lessons && /usr/bin/c++ -DLessons_EXPORTS -I/home/vova/Projects/Lerning_OpenGL/Lessons/Core -isystem /usr/lib -Wall -Wextra -fPIC -std=gnu++14 -MD -MT Lessons/CMakeFiles/Lessons.dir/Hello_Triangle/Hello_Triangle.cpp.o -MF CMakeFiles/Lessons.dir/Hello_Triangle/Hello_Triangle.cpp.o.d -o CMakeFiles/Lessons.dir/Hello_Triangle/Hello_Triangle.cpp.o -c /home/vova/Projects/Lerning_OpenGL/Lessons/Hello_Triangle/Hello_Triangle.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=6 "Building CXX object Lessons/CMakeFiles/Lessons.dir/Hello_Window/Hello_Window.cpp.o"
+cd /home/vova/Projects/Lerning_OpenGL/Lessons && /usr/bin/c++ -DLessons_EXPORTS -I/home/vova/Projects/Lerning_OpenGL/Lessons/Core -isystem /usr/lib -Wall -Wextra -fPIC -std=gnu++14 -MD -MT Lessons/CMakeFiles/Lessons.dir/Hello_Window/Hello_Window.cpp.o -MF CMakeFiles/Lessons.dir/Hello_Window/Hello_Window.cpp.o.d -o CMakeFiles/Lessons.dir/Hello_Window/Hello_Window.cpp.o -c /home/vova/Projects/Lerning_OpenGL/Lessons/Hello_Window/Hello_Window.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=7 "Linking CXX shared library libLessons.so"
+cd /home/vova/Projects/Lerning_OpenGL/Lessons && /usr/bin/cmake -E cmake_link_script CMakeFiles/Lessons.dir/link.txt --verbose=
+make[2]: Leaving directory '/home/vova/Projects/Lerning_OpenGL'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=5,6,7 "Built target Lessons"
+make -s -f CMakeFiles/Lerning_OpenGl.dir/build.make CMakeFiles/Lerning_OpenGl.dir/depend
+make[2]: Entering directory '/home/vova/Projects/Lerning_OpenGL'
+cd /home/vova/Projects/Lerning_OpenGL && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/vova/Projects/Lerning_OpenGL /home/vova/Projects/Lerning_OpenGL /home/vova/Projects/Lerning_OpenGL /home/vova/Projects/Lerning_OpenGL /home/vova/Projects/Lerning_OpenGL/CMakeFiles/Lerning_OpenGl.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/vova/Projects/Lerning_OpenGL'
+make -s -f CMakeFiles/Lerning_OpenGl.dir/build.make CMakeFiles/Lerning_OpenGl.dir/build
+make[2]: Entering directory '/home/vova/Projects/Lerning_OpenGL'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/Lerning_OpenGl.dir/main.cpp.o"
+/usr/bin/c++  -I/home/vova/Projects/Lerning_OpenGL -I/home/vova/Projects/Lerning_OpenGL/Core -I/home/vova/Projects/Lerning_OpenGL/Lessons -I/home/vova/Projects/Lerning_OpenGL/Lessons/Core -isystem /usr/lib -Wall -Wextra -std=gnu++14 -MD -MT CMakeFiles/Lerning_OpenGl.dir/main.cpp.o -MF CMakeFiles/Lerning_OpenGl.dir/main.cpp.o.d -o CMakeFiles/Lerning_OpenGl.dir/main.cpp.o -c /home/vova/Projects/Lerning_OpenGL/main.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=4 "Linking CXX executable Lerning_OpenGl"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/Lerning_OpenGl.dir/link.txt --verbose=
+make[2]: Leaving directory '/home/vova/Projects/Lerning_OpenGL'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/vova/Projects/Lerning_OpenGL/CMakeFiles --progress-num=3,4 "Built target Lerning_OpenGl"
+make[1]: Leaving directory '/home/vova/Projects/Lerning_OpenGL'
+/usr/bin/cmake -E cmake_progress_start /home/vova/Projects/Lerning_OpenGL/CMakeFiles 0
+make: Leaving directory '/home/vova/Projects/Lerning_OpenGL'
+ 

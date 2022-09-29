@@ -1,0 +1,9 @@
+/home/vova/Projects/Lerning_OpenGL/CMakeFiles/Lerning_OpenGl.dir
+/home/vova/Projects/Lerning_OpenGL/CMakeFiles/edit_cache.dir
+/home/vova/Projects/Lerning_OpenGL/CMakeFiles/rebuild_cache.dir
+/home/vova/Projects/Lerning_OpenGL/Core/CMakeFiles/Core.dir
+/home/vova/Projects/Lerning_OpenGL/Core/CMakeFiles/edit_cache.dir
+/home/vova/Projects/Lerning_OpenGL/Core/CMakeFiles/rebuild_cache.dir
+/home/vova/Projects/Lerning_OpenGL/Lessons/CMakeFiles/Lessons.dir
+/home/vova/Projects/Lerning_OpenGL/Lessons/CMakeFiles/edit_cache.dir
+/home/vova/Projects/Lerning_OpenGL/Lessons/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wextra -shared -Wl,-soname,libCore.so -o libCore.so CMakeFiles/Core.dir/Application.cpp.o CMakeFiles/Core.dir/Shader.cpp.o 
